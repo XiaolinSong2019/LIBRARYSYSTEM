@@ -1,0 +1,11 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+module com.mylibrary {
+   requires java.sql;
+   requires javafx.controls;
+   requires javafx.fxml;
+
+   exports com.mylibrary;
+
+   opens com.mylibrary to
+      javafx.fxml;
+}
